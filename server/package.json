@@ -1,0 +1,33 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Ecommerce API with Node js and MongoDB",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TemiladeRebecca/AdireHub.git"
+  },
+  "keywords": [
+    "ecommerce",
+    "nodejs"
+  ],
+  "author": "Temilade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TemiladeRebecca/AdireHub/issues"
+  },
+  "homepage": "https://github.com/TemiladeRebecca/AdireHub#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.1"
+  }
+}
