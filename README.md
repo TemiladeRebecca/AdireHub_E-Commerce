@@ -3,7 +3,7 @@
 It has been an exciting journey in ALX software engineering program. After nine months, which is the period for the foundation, we are required to build an application of our own.
 We chose to build an application called AdireHub. The AdireHub is a shopping application whereby people visit to buy and sell Adire(Yoruba).
 
-## AdireHub Platform:
+## AdireHub E-Commerce Platform:
 
 The application provides a means for buying and selling of Adire products. That means the application is open to manufacturers, wholesalers, retailers and consumers.
 The user registers either as a seller or a buyer. The sellers displays their products under certain conditions with their prices attached. The buyers then visit and make their orders.
@@ -16,4 +16,8 @@ The technology used include:
 - node.js for back-end database
 - python for back-end database
 
-### CONCLUSION
+### Authors
+
+Talabi Rebecca [Github](https://github.com/TemiladeRebecca)
+
+Samuel Eibo [Github](https://github.com/Samibo-cmd)
