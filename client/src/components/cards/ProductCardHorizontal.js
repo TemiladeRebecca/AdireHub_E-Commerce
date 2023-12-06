@@ -36,9 +36,9 @@ export default function ProductCardHorizontal({ p, remove = true }) {
           <div className="card-body">
             <h5 className="card-title">
               {p.name}{" "}
-              {p?.price?.toLocaleString("en-US", {
+              {p?.price?.toLocaleString("en-NG", {
                 style: "currency",
-                currency: "USD",
+                currency: "NGN",
               })}
             </h5>
             <p className="card-text">{`${p?.description?.substring(
