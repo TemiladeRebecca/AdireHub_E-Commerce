@@ -54,7 +54,7 @@ export default function Home() {
 
   return (
     <div>
-      <Jumbotron title="AdireHub" subTitle="Welcome to AdireHub E-commerce"/>
+      <Jumbotron title="Welcome to AdireHub E-Commerce" subTitle="Where Tradition Meets Style"/>
       <div className="container-fluid">
         <div className="row">
           <div className="col-md-6">
