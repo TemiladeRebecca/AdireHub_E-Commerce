@@ -8,7 +8,7 @@ export default function Jumbotron({
         style={{ marginTop: "-8px", height: "200px" }}
       >
         <div className="row">
-          <div className="col text-center p-5 bg-light">
+          <div className="col text-center p-5 bg-light" style={{ fontFamily: "serif" }}>
             <h1 className="fw-bold">{title}</h1>
             <p className="lead">{subTitle}</p>
           </div>
