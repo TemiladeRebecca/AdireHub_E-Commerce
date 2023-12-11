@@ -2,14 +2,14 @@ import { useState, useEffect } from "react";
 import Jumbotron from "../components/cards/jumbotron";
 import axios from "axios";
 import ProductCard from "../components/cards/ProductCard";
-import { Checkbox, Radio } from "antd";
+import { Checkbox } from "antd";
 
 
 export default function Shop() {
   const [categories, setCategories] = useState([]);
   const [products, setProducts] = useState([]);
   const [checked, setChecked] = useState([]); // categories
-  const [radio, setRadio] = useState([]); // radio
+  const [radio] = useState([]); // radio
 
   useEffect(() => {
     if (!checked.length || !radio.length) loadProducts();
