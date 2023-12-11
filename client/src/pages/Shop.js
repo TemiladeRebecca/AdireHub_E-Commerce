@@ -67,7 +67,7 @@ export default function Shop() {
 
   return (
     <>
-      <Jumbotron title="AdireHub" subTitle="Welcome to AdireHub E-commerce" />
+      <Jumbotron title="AdireHub" subTitle="Explore the Exquisite World of Adire Fabrics" />
 
       {/* <pre>{JSON.stringify({ checked, radio }, null, 4)}</pre> */}
 
