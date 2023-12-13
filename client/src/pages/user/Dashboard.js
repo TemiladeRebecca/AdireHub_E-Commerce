@@ -5,7 +5,7 @@ import UserMenu from "../../components/nav/UserMenu";
 
 export default function UserDashboard() {
   // context
-  const [auth, setAuth] = useAuth();
+  const [auth] = useAuth();
 
   return (
     <>

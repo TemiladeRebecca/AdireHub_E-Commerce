@@ -5,7 +5,7 @@ import AdminMenu from "../../components/nav/AdminMenu";
 
 export default function AdminDashboard() {
   // context
-  const [auth, setAuth] = useAuth();
+  const [auth] = useAuth();
 
   return (
     <>

@@ -9,8 +9,7 @@ export default function CategoryView() {
   // state
   const [products, setProducts] = useState([]);
   const [category, setCategory] = useState({});
-  // hooks
-  const navigate = useNavigate();
+
   const params = useParams();
 
   useEffect(() => {

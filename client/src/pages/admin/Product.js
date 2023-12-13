@@ -11,7 +11,7 @@ const { Option } = Select;
 
 export default function AdminProduct() {
   // context
-  const [auth, setAuth] = useAuth();
+  const [auth] = useAuth();
   // state
   const [categories, setCategories] = useState([]);
   const [photo, setPhoto] = useState("");

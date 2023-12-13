@@ -9,7 +9,7 @@ import ProductCardHorizontal from "../../components/cards/ProductCardHorizontal"
 
 export default function UserOrders() {
   // context
-  const [auth, setAuth] = useAuth();
+  const [auth] = useAuth();
   // state
   const [orders, setOrders] = useState([]);
 

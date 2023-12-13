@@ -7,7 +7,7 @@ import axios from "axios";
 
 export default function PrivateRoute() {
   // context
-  const [auth, setAuth] = useAuth();
+  const [auth] = useAuth();
   // state
   const [ok, setOk] = useState(false);
 

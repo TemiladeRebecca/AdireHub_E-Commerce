@@ -8,8 +8,8 @@ import ProductCardHorizontal from "../components/cards/ProductCardHorizontal";
 
 export default function Cart() {
   // context
-  const [cart, setCart] = useCart();
-  const [auth, setAuth] = useAuth();
+  const [cart] = useCart();
+  const [auth] = useAuth();
   // hooks
   const navigate = useNavigate();
 

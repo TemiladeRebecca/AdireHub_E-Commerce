@@ -10,7 +10,7 @@ import { Badge } from "antd";
 export default function Menu() {
   // context
   const [auth, setAuth] = useAuth();
-  const [cart, setCart] = useCart();
+  const [cart] = useCart();
   // hooks
   const categories = useCategory();
   const navigate = useNavigate();

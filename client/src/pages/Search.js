@@ -4,7 +4,7 @@ import Jumbotron from "../components/cards/jumbotron";
 
 
 export default function Search() {
-  const [values, setValues] = useSearch();
+  const [values] = useSearch();
 
   return (
     <>

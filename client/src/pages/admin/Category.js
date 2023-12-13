@@ -10,7 +10,7 @@ import { Modal } from "antd";
 
 export default function AdminCategory() {
   // context
-  const [auth, setAuth] = useAuth();
+  const [auth] = useAuth();
   // state
   const [name, setName] = useState("");
   const [categories, setCategories] = useState([]);
