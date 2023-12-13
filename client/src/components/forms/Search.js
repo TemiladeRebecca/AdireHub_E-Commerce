@@ -2,6 +2,7 @@ import axios from "axios";
 import { useSearch } from "../../context/search";
 import { useNavigate } from "react-router-dom";
 
+
 export default function Search() {
   // hooks
   const [values, setValues] = useSearch();
