@@ -4,6 +4,7 @@ import { useAuth } from "../../context/auth";
 import Loading from "./Loading";
 import axios from "axios";
 
+
 export default function PrivateRoute() {
   // context
   const [auth, setAuth] = useAuth();
