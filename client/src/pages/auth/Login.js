@@ -5,6 +5,7 @@ import toast from "react-hot-toast";
 import { useAuth } from "../../context/auth";
 import { useNavigate, useLocation } from "react-router-dom";
 
+
 export default function Login() {
   // state
   const [email, setEmail] = useState("");
