@@ -6,6 +6,7 @@ import useCategory from "../../hooks/useCategory";
 import { useCart } from "../../context/cart";
 import { Badge } from "antd";
 
+
 export default function Menu() {
   // context
   const [auth, setAuth] = useAuth();
