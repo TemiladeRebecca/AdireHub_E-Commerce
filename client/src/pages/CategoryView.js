@@ -4,6 +4,7 @@ import axios from "axios";
 import { useParams, useNavigate } from "react-router-dom";
 import ProductCard from "../components/cards/ProductCard";
 
+
 export default function CategoryView() {
   // state
   const [products, setProducts] = useState([]);
