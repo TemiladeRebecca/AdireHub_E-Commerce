@@ -5,6 +5,7 @@ import toast from "react-hot-toast";
 import { useAuth } from "../../context/auth";
 import { useNavigate } from "react-router-dom";
 
+
 export default function Register() {
   // state
   const [name, setName] = useState("");
