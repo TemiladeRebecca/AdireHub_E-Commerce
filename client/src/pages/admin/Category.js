@@ -7,6 +7,7 @@ import toast from "react-hot-toast";
 import CategoryForm from "../../components/forms/CategoryForm";
 import { Modal } from "antd";
 
+
 export default function AdminCategory() {
   // context
   const [auth, setAuth] = useAuth();
