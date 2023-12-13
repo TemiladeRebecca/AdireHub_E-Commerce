@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom";
 import UserCartSidebar from "../components/cards/UserCartSidebar";
 import ProductCardHorizontal from "../components/cards/ProductCardHorizontal";
 
+
 export default function Cart() {
   // context
   const [cart, setCart] = useCart();
