@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import LoadingGIF from "../../images/loading.gif";
 
+
 export default function Loading({ path = "login" }) {
   // state
   const [count, setCount] = useState(3);
