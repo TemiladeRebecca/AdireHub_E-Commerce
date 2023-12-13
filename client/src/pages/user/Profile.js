@@ -5,6 +5,7 @@ import UserMenu from "../../components/nav/UserMenu";
 import axios from "axios";
 import toast from "react-hot-toast";
 
+
 export default function UserProfile() {
   // context
   const [auth, setAuth] = useAuth();
