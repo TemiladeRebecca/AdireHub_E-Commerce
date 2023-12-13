@@ -3,6 +3,7 @@ import Jumbotron from "../components/cards/jumbotron";
 import axios from "axios";
 import ProductCard from "../components/cards/ProductCard";
 
+
 export default function Home() {
   const [products, setProducts] = useState([]);
   const [total, setTotal] = useState(0); 
