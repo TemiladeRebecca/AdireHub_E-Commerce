@@ -6,6 +6,7 @@ import axios from "axios";
 import DropIn from "braintree-web-drop-in-react";
 import toast from "react-hot-toast";
 
+
 export default function UserCartSidebar() {
   // context
   const [auth] = useAuth();
