@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/TemiladeRebecca/AdireHub_E-Commerce/static/css/main.64afe036.css",
+    "main.js": "/TemiladeRebecca/AdireHub_E-Commerce/static/js/main.c698d653.js",
+    "static/js/787.d5fa4d18.chunk.js": "/TemiladeRebecca/AdireHub_E-Commerce/static/js/787.d5fa4d18.chunk.js",
+    "index.html": "/TemiladeRebecca/AdireHub_E-Commerce/index.html",
+    "main.64afe036.css.map": "/TemiladeRebecca/AdireHub_E-Commerce/static/css/main.64afe036.css.map",
+    "main.c698d653.js.map": "/TemiladeRebecca/AdireHub_E-Commerce/static/js/main.c698d653.js.map",
+    "787.d5fa4d18.chunk.js.map": "/TemiladeRebecca/AdireHub_E-Commerce/static/js/787.d5fa4d18.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.64afe036.css",
+    "static/js/main.c698d653.js"
+  ]
+}
